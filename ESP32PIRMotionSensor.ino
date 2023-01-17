@@ -52,7 +52,7 @@ void sendMessage(String message, String image_path){
 }
 
 void setup() {
-  // put your setup code here, to run once:
+  
   Serial.begin(115200);
   Serial.println("Hello, ESP32!");
   pinMode(sensor_pin, INPUT); 
